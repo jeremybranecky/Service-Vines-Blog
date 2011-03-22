@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		font-family:Georgia, "Times New Roman", Times, serif;
+		background:url('./images/bg.jpg') #fff;
+		margin:0 auto;
+		text-align:center;
+	}
+	
+	#wrapper{
+		width:900px;
+		margin:0 auto;
+	}
+	
+	#header{
+		height:198px;
+	}
+	
+	#logo{
+		float:left;
+	}
+	
+	#logo p{
+		margin:0 auto;
+	}
+	
+	#headerText{
+		float:right;
+		font-size:1.8em;
+		text-align:center;
+		margin:0px 90px 0px 0px;
+	}
+	
+	#left{
+		float:left;
+		background:url('./images/left_bg.jpg') repeat-x #fff;
+		width:280px;
+		
+	}
+	
+	.step{
+		margin:26px;
+		text-align:left;
+	}
+	
+	#right{
+		float:right;
+
+	}
+	
+	#postJob{
+		background:url('./images/post_job_bg.jpg');
+		width:529px;
+		height:388px;
+		margin:-73px 0px 20px;
+	}
+	
+	#postJob .header{
+		color:#fff;
+		font-size:2.4em;
+		margin:0 auto;
+		padding:20px;
+	}
+	
+	#jobTypes{
+		margin:0px 40px;
+	}
+	
+	#jobTypes .header{
+		font-size:1.6em;
+		text-align:left;
+		padding:5px !important;
+	}
+	
+	#types{
+		background:#d0e3b5;
+		height:190px;
+		width:450px;
+	}
+	
+	.jobType{
+		background: none repeat scroll 0 0 #FFFFFF !important;
+    	float: left;
+    	margin: 10px 10px 4px;
+   	 	width: 205px;	
+		height:44px;
+		font-size:.8em;
+	}
+
+.jobType a{
+	color:#000;
+}
+	
+	.jobType img{
+		float:left;
+		margin:2px;
+		border:0px;
+	}
+	
+	.jobType p{
+		margin:12px 0px 3px;
+		text-align:left;
+	}
+	
+	#footer{
+		clear:both;
+		padding:100px 0px 10px 0px;
+	}
+	
+	#signupForm{
+		background:url('./images/signup_bg.jpg');
+		width:227px;
+		height:164px;
+		margin:22px;
+	}
+	
+	#signupForm .header{
+		font-size:1.2em;
+		margin:0;
+		padding:4px;
+		text-align:center;
+	}
+	
+	#signupForm p{
+		margin:0;
+		text-align:left;
+		padding:0px 10px;
+		font-size:.7em;
+	}
+
+#signup 
+{
+	width:130px;
+	height:30px;
+	background:url('./images/signup.png');
+	margin:2px 0px 0px 0px;
+	border:0px;
+}
+
+span.wpcf7-not-valid-tip-no-ajax{
+	font-size:.8em !important;
+}
+
+.wpcf7-text{
+	width:200px !important;
+}

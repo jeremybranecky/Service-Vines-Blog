@@ -1,0 +1,3 @@
+[21-Dec-2010 19:44:46] PHP Warning:  fopen(/home/thebram/public_html/servicevines.com/wp-content/themes/beatific-for-wordpress-4-in-1/style.css) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/thebram/public_html/servicevines.com/wp-includes/functions.php on line 4165
+[21-Dec-2010 19:44:46] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home/thebram/public_html/servicevines.com/wp-includes/functions.php on line 4168
+[21-Dec-2010 19:44:46] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/thebram/public_html/servicevines.com/wp-includes/functions.php on line 4171

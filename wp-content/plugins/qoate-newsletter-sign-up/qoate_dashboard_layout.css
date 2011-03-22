@@ -1,0 +1,10 @@
+.qoate-right-box p,.qoate-right-box ul{
+margin:5px;
+}
+.qoate-right-box ul{
+list-style:square;
+margin-left:20px;
+}
+.qoate-right-box li{
+margin:0;
+}

@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yawasp in Italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-12 18:14+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sven Kubiak <mail@svenkubiak.de>\n"
+"Language-Team: Gianni Diurno | http://gidibao.net/ <gidibao@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: yawasp.php:45
+msgid "The required functions for creating the table could not be loaded."
+msgstr "Non sono state caricate le funzioni necesarie per la creazione della tabella."
+
+#: yawasp.php:84
+msgid "Your WordPress is to old. Yawasp requires at least to WordPress 2.6."
+msgstr "La tua versione di WordPress é datata.  Affinché Yawasp possa funzionare sarà necessaria una WordPress 2.6 o superiore."
+
+#: yawasp.php:167
+#: yawasp.php:176
+msgid "Sorry, but it seems you are a Spambot."
+msgstr "Pare che tu sia uno Spambot."
+
+#: yawasp.php:292
+msgid "Sorry, but you have no permissions to change settings."
+msgstr "Non hai i permessi per poter modificare le impostazioni."
+
+#: yawasp.php:307
+msgid "YAWASP Formfields were successfully regenerated."
+msgstr "Il form di YAWASP é stato rigenerato con successo."
+
+#: yawasp.php:328
+#: yawasp.php:365
+msgid "YAWASP settings were saved successfully."
+msgstr "Le impostazioni di YAWASP sono state salvate con successo."
+
+#: yawasp.php:337
+msgid "YAWASP Counter was reseted successfully."
+msgstr "Il contatore di YAWASP é stato azzerato con successo."
+
+#: yawasp.php:416
+msgid "Are you sure you want to reset the counter?"
+msgstr "Sei certo di voler azzerare il contatore?"
+
+#: yawasp.php:417
+msgid "Are you sure you want to regenerate the Formfields?"
+msgstr "Sei certo di volere rigenerare il form?"
+
+#: yawasp.php:422
+msgid "YAWASP Settings"
+msgstr "YAWASP Preferenze"
+
+#: yawasp.php:423
+msgid "Statistic"
+msgstr "Statistica"
+
+#: yawasp.php:427
+msgid "Total"
+msgstr "Totale"
+
+#: yawasp.php:435
+msgid "Detailed"
+msgstr "Dettaglio"
+
+#: yawasp.php:442
+msgid "No detailed statistic so far."
+msgstr "Ancora nessuna statistica."
+
+#: yawasp.php:448
+#, php-format
+msgid "%s Spambot send the default author and/or comment field."
+msgid_plural "%s Spambots send the default author and/or comment field."
+msgstr[0] "%s Spambot indirizza all'autore predefinito e/o modulo dei commenti."
+msgstr[1] "%s Spambot indirizzano all'autore predefinito e/o modulo dei commenti."
+
+#: yawasp.php:456
+#, php-format
+msgid "%s Spambot did not send the hidden field."
+msgid_plural "%s Spambots did not send the hidden field."
+msgstr[0] "%s Spambot non invia il campo nascosto."
+msgstr[1] "%s Spambot non inviano il campo nascosto."
+
+#: yawasp.php:464
+#, php-format
+msgid "%s Spambot send the hidden field, but filled it out."
+msgid_plural "%s Spambots send the hidden field, but filled it out."
+msgstr[0] "%s Spambot invia un campo nascosto, ma non lo ha compilato."
+msgstr[1] "%s Spambots hanno inviato un campo nascosto senza compilarlo.."
+
+#: yawasp.php:472
+#, php-format
+msgid "%s Spambot was stopped because of their IP Address."
+msgid_plural "%s Spambots was stopped because of their IP Address."
+msgstr[0] "%s Spambot é stato bloccato per via del suo indirizzo IP."
+msgstr[1] "%s Spambots sono stati bloccati bloccato per via del loro indirizzo IP."
+
+#: yawasp.php:487
+msgid "Reset Counter"
+msgstr "Ripristina il contatore"
+
+#: yawasp.php:490
+msgid "Formfields"
+msgstr "Form"
+
+#: yawasp.php:493
+msgid "Generate"
+msgstr "Genera"
+
+#: yawasp.php:495
+msgid "If you notice an increasing number of Spambots who make it to your blog, you might want to regenerate the names of the YAWASP Formfields."
+msgstr "Qualora registrassi un incremento del numero degli Spambot verso il tuo sito, ti invito a rigenerare i nomi per i campi del form di YAWASP. "
+
+#: yawasp.php:502
+msgid "Regenerate Formfields"
+msgstr "Rigenera i campi per il form"
+
+#: yawasp.php:505
+msgid "Operating mode"
+msgstr "Modo operativo"
+
+#: yawasp.php:506
+msgid "By default all Spambots will be blocked. If you want to see what is blocked, select moderate or mark as spam. Catched Spambots will we be marked as Spam or put in moderation queue. Furthermore you can enable or disable if Yawasp should perfom its checks, if a user is logged in."
+msgstr "Come funzione predefinita tutti gli Spambot saranno bloccati. Qualora tu desiderassi vedere quali sono stati bloccati, seleziona la moderazione oppure la segnalazione. Gli Spambot allocati nella cache saranno segnalati come spam oppure inseriti nella coda di moderazione. Inoltre, potrai attivare/disattivare la funzione di YAWASP che determina se un utente é collegato. "
+
+#: yawasp.php:510
+msgid "Mode"
+msgstr "Modo"
+
+#: yawasp.php:513
+msgid "Block (recommended)"
+msgstr "Blocca (raccomandato)"
+
+#: yawasp.php:515
+msgid "Mark as Spam (Akisment or similar required)"
+msgstr "Segnala come Spam (é necessario Akisment o simili)"
+
+#: yawasp.php:517
+msgid "Moderate"
+msgstr "Modera"
+
+#: yawasp.php:521
+msgid "Check logged in User"
+msgstr "Verifica gli utenti collegati"
+
+#: yawasp.php:523
+#: yawasp.php:547
+msgid "Yes"
+msgstr "Sì"
+
+#: yawasp.php:523
+#: yawasp.php:547
+msgid "No"
+msgstr "No"
+
+#: yawasp.php:527
+msgid "YAWASP adds an additional Formfield (hidden to the \"real\" user) to your comments.php. Most Spampots fall for this trap and fill it out blindly. To make this trap as good as we can, we have to make this hidden as close as it gets to a real Formfield. Therefore the id of this field is by default set to the value \"Author\". However, as ids can not have the same name twice, this is not strict HTML. Therefore you can decide on your own if you want more proctection, but not strict HTML or less protection, but strict HTML."
+msgstr "YAWASP aggiunge un form (nascosto per l'utente \"umano\") al file comments.php. La maggior parte degli Spambots cadrà in questa trappola compilando il modulo alla cieca. Per poter far rendere al meglio questa trappola, dovremmo far sì che essa sia particolarmente simile al modulo reale per i contatti. Inoltre, la id di questo campo dovrà essere impostata come predefinita al valore \"Autore\". Comunque, poiché le id non possono avere per due volte lo stesso nome,  l'HTML non verrà convalidato. Infine, puoi tu stesso decidere se optare per una maggiore protezione a costo della validità dell'HTML oppure, con un HTML valido, ridurre la protezione stessa."
+
+#: yawasp.php:530
+msgid "Name of the hidden Formfield"
+msgstr "Nome per il campo nascosto"
+
+#: yawasp.php:532
+msgid "Author (Higher protection, but not HTML conform)"
+msgstr "Autore (Massima protezione, ma non conforme all'HTML)"
+
+#: yawasp.php:532
+msgid "Blank (Less protection, but HTML conform)"
+msgstr "Vuoto (Minore protezione, ma conforme all'HTML)"
+
+#: yawasp.php:537
+#: yawasp.php:562
+#: yawasp.php:578
+msgid "Save"
+msgstr "Salva"
+
+#: yawasp.php:540
+msgid "IP Lock"
+msgstr "Blocca IP"
+
+#: yawasp.php:541
+msgid "If a Spambot is catched, the combination of his IP Adress and User-agent will be saved. You can lock this combination for 1 hour, 24 hours or indefinitely."
+msgstr "Qualora uno Spambot fosse stato inserito nella cache, il suo indirizzo IP nonché l'User-agent verranno salvati. Potrai bloccare questa combinazione per 1 ora, 24 ore oppure per sempre. "
+
+#: yawasp.php:545
+msgid "Save IP Adress"
+msgstr "Salva indirizzo IP"
+
+#: yawasp.php:551
+msgid "Block time"
+msgstr "Tempo per il blocco"
+
+#: yawasp.php:553
+msgid "1 hour"
+msgstr "1 ora"
+
+#: yawasp.php:555
+msgid "24 hours"
+msgstr "24 ore"
+
+#: yawasp.php:557
+msgid "Indefinitely"
+msgstr "Illimitato"
+
+#: yawasp.php:566
+msgid "Automatic template change"
+msgstr "Modifica automatica del tema"
+
+#: yawasp.php:567
+msgid "You will find a Backup (comments.php.old) of your comments.php in your template folder."
+msgstr "Troverai nella cartella del tuo tema il backup (comments.php.old) del tuo file comments.php."
+
+#: yawasp.php:571
+msgid "Changes in comments.php"
+msgstr "Modifica il file comments.php"
+
+#: yawasp.php:573
+msgid "Change template"
+msgstr "Modifica il tema"
+
+#: yawasp.php:573
+msgid "Undo changes"
+msgstr "Annulla le modifiche"
+
+#: yawasp.php:581
+msgid "Manual template change"
+msgstr "Modifica manuale del tema"
+
+#: yawasp.php:582
+msgid "Manual instructions for changing your comments.php are available in english and german at the following websites:"
+msgstr "Le istruzioni sul come modificare il file comments.php sono disponibili in lingua inglese e tedesca presso i seguenti siti:"
+
+#: yawasp.php:584
+msgid "Instructions in German"
+msgstr "Istruzioni in tedesco"
+
+#: yawasp.php:585
+msgid "Instructions in English"
+msgstr "Istruzioni in inglese"
+
+#: yawasp.php:616
+#, php-format
+msgid " has stopped %s birdbrained Spambot on this Blog!"
+msgid_plural " has stopped %s birdbrained Spambots on this Blog!"
+msgstr[0] " ha fermato %s stupido Spambot che voleva accedere a questo blog!"
+msgstr[1] " ha fermato %s stupidi Spambot che volevano accedere a questo blog!"
+
+#: yawasp.php:669
+#, php-format
+msgid " has stopped %s birdbrained Spambot."
+msgid_plural " has stopped %s birdbrained Spambots."
+msgstr[0] " ha fermato %s stupido Spambot che voleva accedere a questo blog!"
+msgstr[1] " ha fermato %s stupidi Spambot che volevano accedere a questo blog!"
+
+#: yawasp.php:676
+#, php-format
+msgid " Click %s for a detailed statistic."
+msgstr " Clicca su %s per le statistiche dettagliate."
+
+#: yawasp.php:677
+msgid "here"
+msgstr "qui"
+
+#: yawasp.php:862
+msgid "Your comments.php was changed successfully. YAWASP is up and running!"
+msgstr "Il tuo file comments.php é stato modificato con successo. YAWASP é ok ed in funzione!"
+
+#: yawasp.php:864
+msgid "Failed to change your comments.php. Please change manually"
+msgstr "Non é stato possibile modificare il tuo file comments.php. Apporta manualmente le modifiche"
+
+#: yawasp.php:882
+msgid "Changes in comments.php were successfully removed."
+msgstr "Le modifiche al file comments.php sono state rimosse con successo."
+
+#: yawasp.php:884
+msgid "Failed to remove changes in comments.php. Please remove manually"
+msgstr "Non é stato possibile rimuovere le modifiche apportate al file comments.php. Apporta manualmente le modifiche."
+
+#~ msgid " has stopped %s birdbrained Spambot since its last activation."
+#~ msgid_plural ""
+#~ " has stopped %s birdbrained Spambots since its last activation."
+#~ msgstr[0] " ha fermato %s stupido Spambot dalla sua ultima attivazione."
+#~ msgstr[1] " ha fermato %s stupidi Spambot dalla sua ultima attivazione."
+#~ msgid "Reset names"
+#~ msgstr "Namen  zurücksetzen"
+#~ msgid "Reset Names"
+#~ msgstr "Namen zurücksetzen"
+#~ msgid "Mark as Spam"
+#~ msgstr "Als Spam markieren"
+#~ msgid "Block/Mark/Moderate"
+#~ msgstr "Blockieren/Markieren/Moderieren"
+#~ msgid "Yawasp Statistic"
+#~ msgstr "Yawasp Statistik"
+#~ msgid ""
+#~ "If you still experience problems please visit the comments section for "
+#~ "futher help."
+#~ msgstr "Sollten dennoch Probleme auftreten, stehen für weitere"
+#~ msgid "Error in file: "
+#~ msgstr "Fehler in:"
+

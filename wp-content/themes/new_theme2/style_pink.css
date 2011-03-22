@@ -1,0 +1,73 @@
+/*
+Theme Name: Beatific
+Theme URI: http://www.zoltanhosszu.com/
+Description: A beautiful Wordpress theme.
+Author: Zoltan Hosszu
+Version: 1.0
+Tags: blue, red, yellow, green, purple, fixed width, portfolio, gallery, widgets, sidebar
+
+The Beatific template is a 960px wide website template for everyone out there. It is a full W3C Valid HTML coded Wordpress website theme, easily customizable.
+*/
+
+
+/*
+
+PINK STYLESHEET
+
+*/
+
+body { background-image: url('images/template-pink/background.jpg'); }
+
+h1, h2, h3, h4, h5, h6 { color: #ad1e5e; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #ad1e5e; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #4481aa; }
+
+a { color: #e2a821; }
+a:hover { color: #ff7200; }
+
+input#sendit, input.sendit, input#submit { background-image: url('images/template-pink/button_sendit.png'); }
+
+div.menu ul.menu li a { background-image: url('images/template-pink/menu.jpg'); }
+
+div.menu ul.text li a { background: url('images/template-pink/bg_menu.jpg') repeat-x top; }
+
+div.menu ul.text li a:hover, div.menu ul.text li a:active {
+	border-color: #c35d8d;
+	color: #56293e;
+}
+
+div.menu ul li ul.sub-menu li a:hover {
+	background: url('images/template-pink/bg_submenu_active.jpg') repeat-x bottom #ea70a9 !important;
+	border-top-color: #ffbddc !important;
+	border-bottom-color: #833f5f !important;
+	border-left-color: #ba5986 !important;
+	border-right-color: #ba5986 !important;
+}
+
+div.menu ul li ul.sub-menu li a:active { background-position: 0px -96px; }
+
+div.menu ul li ul.sub-menu li a:hover { color: #56293e !important; }
+
+div.main { background-image: url('images/template-pink/bg_main.jpg'); }
+
+div.main a#learnmore { background-image: url('images/template-pink/button_learnmore.jpg'); }
+
+body.subpage, body.portfolio { background-image: url('images/template-pink/background_page.jpg') !important; }
+
+body.aboutus div.main { background-image: url('images/template-pink/bg_aboutus.jpg'); }
+
+body.blog div.main { background-image: url('images/template-pink/bg_blog.jpg'); }
+
+body.contact div.main { background-image: url('images/template-pink/bg_contact.jpg'); }
+
+body.contact div.filled input, body.contact div.filled textarea { color: #ad1e5e !important; }
+body.contact div.twocolumn div.selected { border: 1px solid #cdf6ab; }
+body.contact div.twocolumn div.selected input, body.contact div.twocolumn div.selected textarea { color: #ad1e5e; }
+
+body.portfolio div.main { background-image: url('images/template-pink/bg_portfolio.jpg'); }
+
+body.portfolio div.pages a:hover, body.portfolio div.filter ul li a.active { background-image: url('images/template-pink/bg_input_active.jpg'); }
+
+body.fullwidth { background: url('images/template-pink/background_full.jpg') repeat-x top !important; }
+
+body.fullwidth div.main { background: url('images/template-pink/bg_full.jpg') no-repeat top center; } 
